@@ -15,6 +15,8 @@
 		668257432A15B79000EC9D7D /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668257422A15B79000EC9D7D /* DailyScrum.swift */; };
 		66A17CC52A2B15CD0040CB69 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A17CC42A2B15CD0040CB69 /* DetailView.swift */; };
 		66A17CC72A2B1AF10040CB69 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A17CC62A2B1AF10040CB69 /* DetailEditView.swift */; };
+		66A17CC92A2BAE970040CB69 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A17CC82A2BAE970040CB69 /* ThemeView.swift */; };
+		66A17CCB2A2BAF4E0040CB69 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A17CCA2A2BAF4E0040CB69 /* ThemePicker.swift */; };
 		66B4AB872A15D506006D4CAF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4AB862A15D506006D4CAF /* CardView.swift */; };
 		66B4AB892A15DFD3006D4CAF /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4AB882A15DFD3006D4CAF /* TrailingIconLabelStyle.swift */; };
 		66B4AB8B2A15E11F006D4CAF /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4AB8A2A15E11F006D4CAF /* ScrumsView.swift */; };
@@ -30,6 +32,8 @@
 		668257422A15B79000EC9D7D /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailyScrum.swift; path = scrumdinger/Models/DailyScrum.swift; sourceTree = SOURCE_ROOT; };
 		66A17CC42A2B15CD0040CB69 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = scrumdinger/DetailView.swift; sourceTree = SOURCE_ROOT; };
 		66A17CC62A2B1AF10040CB69 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailEditView.swift; path = scrumdinger/DetailEditView.swift; sourceTree = SOURCE_ROOT; };
+		66A17CC82A2BAE970040CB69 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemeView.swift; path = scrumdinger/ThemeView.swift; sourceTree = SOURCE_ROOT; };
+		66A17CCA2A2BAF4E0040CB69 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemePicker.swift; path = scrumdinger/ThemePicker.swift; sourceTree = SOURCE_ROOT; };
 		66B4AB862A15D506006D4CAF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = scrumdinger/CardView.swift; sourceTree = SOURCE_ROOT; };
 		66B4AB882A15DFD3006D4CAF /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrailingIconLabelStyle.swift; path = scrumdinger/TrailingIconLabelStyle.swift; sourceTree = SOURCE_ROOT; };
 		66B4AB8A2A15E11F006D4CAF /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScrumsView.swift; path = scrumdinger/ScrumsView.swift; sourceTree = SOURCE_ROOT; };
@@ -73,6 +77,8 @@
 				66A17CC42A2B15CD0040CB69 /* DetailView.swift */,
 				66B4AB8A2A15E11F006D4CAF /* ScrumsView.swift */,
 				66A17CC62A2B1AF10040CB69 /* DetailEditView.swift */,
+				66A17CC82A2BAE970040CB69 /* ThemeView.swift */,
+				66A17CCA2A2BAF4E0040CB69 /* ThemePicker.swift */,
 				66669C952A12128100885A1A /* Assets.xcassets */,
 				66669C972A12128100885A1A /* Preview Content */,
 			);
@@ -166,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A17CCB2A2BAF4E0040CB69 /* ThemePicker.swift in Sources */,
 				668257432A15B79000EC9D7D /* DailyScrum.swift in Sources */,
 				66A17CC52A2B15CD0040CB69 /* DetailView.swift in Sources */,
 				66A17CC72A2B1AF10040CB69 /* DetailEditView.swift in Sources */,
@@ -174,6 +181,7 @@
 				66B4AB8B2A15E11F006D4CAF /* ScrumsView.swift in Sources */,
 				66669C942A12128000885A1A /* MeetingView.swift in Sources */,
 				66669C922A12128000885A1A /* ScrumdingerApp.swift in Sources */,
+				66A17CC92A2BAE970040CB69 /* ThemeView.swift in Sources */,
 				66B4AB872A15D506006D4CAF /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
