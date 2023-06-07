@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66376DAD2A30D23E00C7F147 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66376DAC2A30D23E00C7F147 /* ScrumStore.swift */; };
 		66669C922A12128000885A1A /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66669C912A12128000885A1A /* ScrumdingerApp.swift */; };
 		66669C942A12128000885A1A /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66669C932A12128000885A1A /* MeetingView.swift */; };
 		66669C962A12128100885A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66669C952A12128100885A1A /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66376DAC2A30D23E00C7F147 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScrumStore.swift; path = scrumdinger/Models/ScrumStore.swift; sourceTree = SOURCE_ROOT; };
 		66669C8E2A12128000885A1A /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66669C912A12128000885A1A /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		66669C932A12128000885A1A /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				66A17CD12A2E0A290040CB69 /* ScrumTimer.swift */,
 				66A17CD72A2E0E3F0040CB69 /* History.swift */,
 				66A17CD92A2EF5270040CB69 /* AVPlayer+Ding.swift */,
+				66376DAC2A30D23E00C7F147 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				66A17CD42A2E0AFD0040CB69 /* MeetingFooterView.swift in Sources */,
 				66A17CD22A2E0A290040CB69 /* ScrumTimer.swift in Sources */,
 				668257432A15B79000EC9D7D /* DailyScrum.swift in Sources */,
+				66376DAD2A30D23E00C7F147 /* ScrumStore.swift in Sources */,
 				66A17CC52A2B15CD0040CB69 /* DetailView.swift in Sources */,
 				66A17CDA2A2EF5270040CB69 /* AVPlayer+Ding.swift in Sources */,
 				66A17CCD2A2E06FB0040CB69 /* MeetingHeaderView.swift in Sources */,
