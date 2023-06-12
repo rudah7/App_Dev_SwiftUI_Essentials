@@ -31,7 +31,6 @@ struct MeetingTimerView: View {
     }
 }
 
-
 struct MeetingTimerView_Previews: PreviewProvider {
     static var speakers: [ScrumTimer.Speaker] {
         [ScrumTimer.Speaker(name: "Bill", isCompleted: true), ScrumTimer.Speaker(name: "Cathy", isCompleted: false)]
